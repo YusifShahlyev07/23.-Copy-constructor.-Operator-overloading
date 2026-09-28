@@ -50,10 +50,10 @@ public:
 		return *this;
 	}
 
-	Rectangle& operator-= (const Rectangle & other) {
-		*this->a -= *other.a;
-		*this->b -= *other.b;
-	}
+	//Rectangle& operator-= (const Rectangle & other) {
+	//	*this->a -= *other.a;
+	//	*this->b -= *other.b;
+	//}
 
 	Rectangle operator+(const Rectangle& other) {
 		Rectangle temp;
